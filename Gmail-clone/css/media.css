@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+  section {
+    display: none;
+  }
+
+  body::after {
+    content: "SIR RESPONSIVE NAHI BAN RAHI THI , AGLI BAR AUR KOSHISH KRONGA";
+    background-color: blueviolet;
+    color: orange;
+    height: 100vh;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 16px;
+  }
+}
